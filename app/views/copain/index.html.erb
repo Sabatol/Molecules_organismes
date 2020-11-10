@@ -1,23 +1,41 @@
-<div class="section p-5 m-5 text-center">
-  <h1>Index project mardi 10 novembre</h1>
-  <br/>
-</div>
-<div class="container-fluid m-4 d-flex justify-content-around">
-  <%= link_to "UI template", copain_ui_template_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "Navbar", copain_navbar_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "Footer", copain_footer_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "Forms", copain_authentification_form_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "Banner", copain_banner_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "Cards", copain_cards_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "Comments", copain_comments_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "Showpage", copain_showpage_path, class: "btn btn-primary" %><br/>
-  <br/>
-  <%= link_to "present_element", copain_present_element_path, class: "btn btn-primary" %><br/>
+<div class="container">
+  <div class="section p-3 m-5 text-center">
+    <h1>Index project mardi 10 novembre</h1>
+    <br/>
+    <%= link_to "UI template", copain_ui_template_path, class: "btn btn-primary m-2" %><br/>
+  </div>
+  <div class="section text-center p-3 m-3 d-flex justify-content-around flex-wrap">
+    <div class="row text-center">
+      <h2>Molécules</h2>
+    </div>
+    <div class="row col-12 d-flex justify-content-center p-2 m-2">
+      <%= link_to "Navbar", copain_navbar_path, class: "btn btn-primary m-2" %><br/>
+      <br/>
+      <%= link_to "Footer", copain_footer_path, class: "btn btn-primary m-2" %><br/>
+      <br/>
+      <%= link_to "Banner", copain_banner_path, class: "btn btn-primary m-2" %><br/>
+      <br/>
+      <%= link_to "Cards", copain_cards_path, class: "btn btn-primary m-2" %><br/>
+    </div>
+  </div>
+  <div class="section text-center p-3 m-3 d-flex justify-content-around flex-wrap">
+    <div class="row text-center">
+      <h2>Organismes</h2>
+    </div>
+    <div class="row col-12 d-flex justify-content-center p-2 m-2">
+      <%= link_to "Authentification", copain_authentification_form_path, class: "btn btn-primary m-2" %>
+      <br/>
+      <%= link_to "Registration", copain_registration_form_path, class: "btn btn-primary m-2" %>
+      <br/>
+      <%= link_to "Forgot password", copain_forgot_password_path, class: "btn btn-primary m-2" %>
+      <br/>
+      <%= link_to "Change password", copain_change_password_path, class: "btn btn-primary m-2" %>
+      <br/>
+      <%= link_to "Comments", copain_comments_path, class: "btn btn-primary m-2" %><br/>
+      <br/>
+      <%= link_to "Showpage", copain_showpage_path, class: "btn btn-primary m-2" %><br/>
+      <br/>
+      <%= link_to "present_element", copain_present_element_path, class: "btn btn-primary m-2" %><br/>
+    </div>
+  </div>
 </div>
