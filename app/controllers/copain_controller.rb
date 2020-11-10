@@ -34,4 +34,7 @@ class CopainController < ApplicationController
 
   def showpage
   end
+
+  def present_element
+  end
 end

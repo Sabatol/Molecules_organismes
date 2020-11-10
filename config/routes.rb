@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   get 'copain/comments', to: 'copain#comments'
   get 'copain/ui_template', to: 'copain#ui_template'
   get 'copain/showpage', to: 'copain#showpage'
+  get 'copain/present_element', to: 'copain#present_element'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
