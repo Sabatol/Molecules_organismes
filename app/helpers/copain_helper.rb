@@ -1,0 +1,2 @@
+module CopainHelper
+end

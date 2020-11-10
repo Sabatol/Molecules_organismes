@@ -1,0 +1,109 @@
+<div class="text-center m-5">
+  <h1>Liste des événements</h1>
+  <div class="container my-5 pr-0 d-flex justify-content-around flex-wrap">
+    <% 15.times do %>
+      <div class="card p-2 m-2 text-white bg-secondary" style="width: 21rem;">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2014/03/26/20/54/mountain-298999_960_720.jpg" alt="Damn...">
+        <div class="card-body text-center">
+          <h4 class="card-title">
+            Titre event
+          </h4>
+          <p class="card-text">prix €</p>
+          <p class="card-text">location</p>
+          <p class="card-text">Démarre le : gnagnagna</p>
+          <%= link_to "X participants", root_path, :class =>"btn btn-primary"  %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+<div class="text-center m-5">
+  <h1>Liste des participants à un événement</h1>
+  <div class="container-fluid my-3 pr-0 mt-5">
+    <% 3.times do %>
+      <div class="card py-0 m-2 text-white bg-secondary">
+        <div class="card-body d-flex justify-content-between align-content-center">
+          <img class"" src="https://cdn.pixabay.com/photo/2014/03/26/20/54/mountain-298999_960_720.jpg" width="50px" alt="" class="mr-2 rounded">
+          <p class="card-text">
+            Nom Prénom
+          </p>
+          <p class="card-text">Ville</p>
+          <p class="card-text">???</p>
+          <p class="card-text">Démarre le : gnagnagna</p>
+          <%= link_to "Voir profil", root_path, :class =>"btn btn-primary"  %>
+        </div>
+      </div>
+    <% end %>
+    <% 3.times do %>
+      <div class="card py-0 m-2 text-white bg-info">
+        <div class="card-body d-flex justify-content-between align-content-center">
+          <p class="card-text">
+            Nom Prénom
+          </p>
+          <p class="card-text">Ville</p>
+          <p class="card-text">???</p>
+          <p class="card-text">Démarre le : gnagnagna</p>
+          <%= link_to "Voir profil", root_path, :class =>"btn btn-primary"  %>
+        </div>
+      </div>
+    <% end %>
+    <% 3.times do %>
+      <div class="card py-0 m-2 text-white bg-success">
+        <div class="card-body d-flex justify-content-around">
+          <img class"" src="https://cdn.pixabay.com/photo/2014/03/26/20/54/mountain-298999_960_720.jpg" width="50px" alt="" class="mr-2 rounded">
+          <p class="card-text">
+            Nom Prénom
+          </p>
+          <p class="card-text">Ville</p>
+          <p class="card-text">???</p>
+          <p class="card-text">Démarre le : gnagnagna</p>
+          <%= link_to "Voir profil", root_path, :class =>"btn btn-light"  %>
+        </div>
+      </div>
+    <% end %>
+    <% 3.times do %>
+      <div class="card py-0 m-2 text-white bg-warning">
+        <div class="card-body d-flex justify-content-around align-content-center">
+          <p class="card-text">
+            Nom Prénom
+          </p>
+          <p class="card-text">Ville</p>
+          <p class="card-text">???</p>
+          <p class="card-text">Démarre le : gnagnagna</p>
+          <%= link_to "Voir profil", root_path, :class =>"btn btn-info"  %>
+        </div>
+      </div>
+    <% end %>
+    <% 3.times do %>
+      <div class="card py-0 m-2 bg-light">
+        <div class="card-body d-flex justify-content-around align-content-center">
+          <img class"" src="https://cdn.pixabay.com/photo/2014/03/26/20/54/mountain-298999_960_720.jpg" width="50px" alt="" class="mr-2 rounded">
+          <p class="card-text">
+            Nom Prénom
+          </p>
+          <p class="card-text">Ville</p>
+          <p class="card-text">???</p>
+          <p class="card-text">Démarre le : gnagnagna</p>
+          <%= link_to "Voir profil", root_path, :class =>"btn btn-dark"  %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+<div class="m-5 text-center">
+  <h1>Liste des villes</h1>
+  <div class="container my-5 pr-0 d-flex justify-content-around align-content-around flex-wrap">
+    <% 15.times do %>
+      <div class="card p-2  m-2 text-white bg-info" style="width: 28rem;">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2014/05/03/01/04/city-336708_960_720.jpg" alt="Damn...">
+        <div class="card-body text-center">
+          <h4 class="card-title">
+            Nom de la ville
+          </h4>
+          <p class="card-text">Zip code : XX XXX-XXXXX</p>
+          <%= link_to "Voir la ville", root_path, :class =>"btn btn-dark"  %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

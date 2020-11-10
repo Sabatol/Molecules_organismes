@@ -1,0 +1,31 @@
+<body>
+  <div class="container-fluid m-0 p-5 d-flex row justify-content-center">
+    <form class="w-50 m-3 p-3 text-center">
+      <fieldset>
+        <div class="form-group">
+          <label for="exampleTextarea">
+            <h2>Exprime toi !</h2>
+          </label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </div>
+      </fieldset>
+    </form>
+    <div class="box">
+      <% 8.times do %>
+        <div class="card py-0 m-2 text-white bg-success">
+          <div class="card-body d-flex justify-content-around mx-2 align-items-center">
+            <img class"" src="https://cdn.pixabay.com/photo/2014/03/26/20/54/mountain-298999_960_720.jpg" width="10%" alt="" class="mr-2 rounded">
+            <p class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloremque odit quasi hic, nemo suscipit adipisci assumenda minima perferendis ullam, reprehenderit et soluta? Maxime praesentium laborum unde, a, quidem enim, quibusdam soluta nesciunt repellat cumque tenetur est optio nemo pariatur. Ipsa suscipit minus iste architecto soluta, laboriosam incidunt! Reprehenderit, pariatur.</p>
+            <p class="card-text mx-2">
+              Nom Prénom
+            </p>
+            <p class="card-text mx-2 small">Posté le : 15/10/25 à 15h25</p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</body>
