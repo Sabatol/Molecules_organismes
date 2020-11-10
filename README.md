@@ -5,20 +5,18 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version
 
-* System dependencies
+  2.7.1
 
-* Configuration
+- System dependencies
 
-* Database creation
+  rails 6.0
 
-* Database initialization
+- Configuration
 
-* How to run the test suite
+  system(git clone)
+  system(bundle install)
+  system(rails s)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  url => http://localhost:3000/
